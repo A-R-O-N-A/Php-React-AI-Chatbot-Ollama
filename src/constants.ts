@@ -1,0 +1,1 @@
+export const baseUrl = 'http://localhost/shadcn-php-ai/millennium-gpt/oop'

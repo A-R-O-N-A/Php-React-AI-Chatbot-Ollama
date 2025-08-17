@@ -1,20 +1,18 @@
 import { Routes, Route } from 'react-router-dom'
 import { AppLayout } from './components/app-layout'
 import NotMatch from './pages/NotMatch'
-import ChatPage from './pages/ChatPage'
+import Dashboard from './pages/Dashboard'
+import Sample from './pages/Sample'
+import ComingSoon from './pages/ComingSoon'
 
 export default function Router() {
     return (
         <Routes>
             <Route element={<AppLayout />}>
-
-                <Route path="" element={<ChatPage />} />
-
+                <Route path="" element={<Dashboard />} />
                 <Route path="pages">
-
-                    <Route path="chatroom" element={<ChatPage />} />
-                    <Route path="chatroom/:chatroom_id" element={<ChatPage />} />
-
+                    <Route path="sample" element={<Sample />} />
+                    <Route path="feature" element={<ComingSoon />} />
                 </Route>
                 <Route path="*" element={<NotMatch />} />
             </Route>

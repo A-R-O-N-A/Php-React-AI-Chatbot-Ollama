@@ -82,8 +82,7 @@ export function AppHeader() {
                         </nav>
                     </div>
                     <nav className="flex gap-1">
-
-                        {/* <a
+                        <a
                             href={appConfig.github.url}
                             title={appConfig.github.title}
                             target="_blank"
@@ -97,16 +96,15 @@ export function AppHeader() {
                             )}>
                             <GitHub />
                             <span className="sr-only">GitHub</span>
-                        </a> */}
-
+                        </a>
                         <DropdownMenu>
                             <DropdownMenuTrigger asChild>
                                 <Button
                                     variant='ghost'
                                     className='relative h-8 w-8 rounded-full cursor-pointer ml-2'>
                                     <Avatar className='h-8 w-8'>
-                                        {/* <AvatarImage src={baseUrl + '/avatars/shadcn.jpg'} alt='shadcn' /> */}
-                                        {/* <AvatarFallback className="rounded-lg">SC</AvatarFallback> */}
+                                        <AvatarImage src={baseUrl + '/avatars/shadcn.jpg'} alt='shadcn' />
+                                        <AvatarFallback className="rounded-lg">SC</AvatarFallback>
                                     </Avatar>
                                 </Button>
                             </DropdownMenuTrigger>
