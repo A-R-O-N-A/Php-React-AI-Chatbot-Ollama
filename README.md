@@ -1,3 +1,11 @@
+# A PHP ReactJS AI chatbot powered by Llama 3.2:3b running under Ollama Server
+
+Made with raw php configured as a simple api to act as the backend. Frontend made with
+Shadcn based on the below starter kit.
+
+_-A-R-O-N-A_
+
+
 # React Shadcn Starter
 
 React + Vite + TypeScript template for building apps with shadcn/ui.
